@@ -12,7 +12,8 @@ on:
         required: true
         #default: 'master'
 jobs:
-  job1:
+ printInputs:
+   job1:
     runs-on: ubuntu-latest
     steps:
       - name: checkout out current code using public action
